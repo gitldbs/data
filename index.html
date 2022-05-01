@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Ami Shishir">
+<meta name="description" content="All data collect by Ami Shishir">
+<title>Data App</title>
+<link rel="icon" href="img/ui/tab.ico">
+<link rel="apple-touch-icon" href="img/ui/tab.png">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- nav -->
+<nav>
+<img src="img/ui/logo.gif" alt="Data">
+</nav>
+
+<!-- header -->
+<header>
+<div id="user-input-container">
+<figure id="user-img-wrapper">
+    <img src="img/user.png" alt="User Img" id="user-img">
+</figure>
+<div id="user-input-box">
+    <h2 id="user-name">User Name</h2>
+    <select id="user-input-name" title="Select a name form this box">
+    <option value="null">null</option>
+    <option value="dip">dip</option>
+    <option value="sujoy">sujoy</option>
+    <option value="swargo">swargo</option>
+    <option value="apurba">apurba</option>
+    <option value="rahul">rahul</option>
+    <option value="shuvo">shuvo</option>
+    <option value="arup">arup</option>
+    </select>
+    <button id="get-data">Get Data</button>
+</div>
+    <p id="user-input-para">Data Collected 2021 - <span id="year"></span></p>
+</div>
+</header>
+
+<!-- table -->
+<section id="table-container">
+<table>
+<thead>
+    <th>No</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Status</th>
+</thead>
+<tbody id="t-body">
+
+    <!-- null -->
+    <tr class="domnull">
+    <td class="null">1</td>
+    <td class="null">null</td>
+    <td class="null">null</td>
+    <td class="null">null</td>
+    </tr>
+    <!-- dip -->
+    <tr class="dip" style="display:none;">
+    <td>1</td>
+    <td>Dip</td>
+    <td>Nothing</td>
+    <td class="null">null</td>
+    </tr>
+    <!-- sujoy -->
+    <tr class="sujoy" style="display:none;">
+    <td>1</td>
+    <td>Sujoy</td>
+    <td>Nothing</td>
+    <td class="null">null</td>
+    </tr>
+    <!-- swargo -->
+    <tr class="swargo" style="display:none;">
+    <td>1</td>
+    <td>Swargo</td>
+    <td>Nothing</td>
+    <td class="null">null</td>
+    </tr>
+    <!-- apurba -->
+    <tr class="apurba" style="display:none;">
+    <td>1</td>
+    <td>Apurba</td>
+    <td>Nothing</td>
+    <td class="null">null</td>
+    </tr>
+    <!-- Rahul -->
+    <tr class="rahul" style="display:none;">
+    <td>1</td>
+    <td>Rahul</td>
+    <td>Mapar Fita</td>
+    <td class="active">Active</td>
+    </tr>
+    <tr class="rahul" style="display:none;">
+    <td>2</td>
+    <td>Rahul</td>
+    <td>Swargo r raket</td>
+    <td class="active">Active</td>
+    </tr>
+    <!-- Shuvo -->
+    <tr class="shuvo" style="display:none;">
+    <td>1</td>
+    <td>Shuvo</td>
+    <td>Nothing</td>
+    <td class="null">null</td>
+    </tr>
+    <!-- Arup -->
+    <tr class="arup" style="display:none;">
+    <td>1</td>
+    <td>Arup</td>
+    <td>Sujoy r 10 Taka</td>
+    <td class="active">Active</td>
+    </tr>
+    <tr class="arup" style="display:none;">
+    <td>2</td>
+    <td>Arup</td>
+    <td>Card Reader</td>
+    <td class="null">null</td>
+    </tr>
+
+</tbody>
+</table>
+</section>
+
+<!-- footer -->
+<footer>
+<p id="footer-para">Database Created By
+<a href="https://www.facebook.com/yoamishishir" target="_blank" rel="noreferrer">Ami Shishir</a>
+</p>
+</footer>
+
+<!-- img database -->
+<img src="img/dip.jpg" style="display:none;" alt="user_base">
+<img src="img/sujoy.jpg" style="display:none;" alt="user_base">
+<img src="img/swargo.jpg" style="display:none;" alt="user_base">
+<img src="img/apurba.jpg" style="display:none;" alt="user_base">
+<img src="img/rahul.jpg" style="display:none;" alt="user_base">
+<img src="img/shuvo.jpg" style="display:none;" alt="user_base">
+<img src="img/arup.jpg" style="display:none;" alt="user_base">
+    
+<script src="js/variable.js"></script>
+<script src="js/data.js"></script>
+</body>
+</html>
